@@ -1,3 +1,5 @@
+// https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Turkish/04_Day_Conditionals/04_day_conditionals.md
+
 // If
 let num = 3
 if (num > 0) {
