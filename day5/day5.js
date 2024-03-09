@@ -1,3 +1,5 @@
+// https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Turkish/05_Day_Arrays/05_day_arrays.md
+
 // Diziler
 
 // Array constructor'ı ( yapıcı metot ) kullanmak
