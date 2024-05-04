@@ -24,4 +24,4 @@ let firstName1 = "Furkan",
 const PI = 3.14;
 const Gravity = 9.81;
 
-console.log(firstName, age, isMarried, child);
+console.log(firstName, age, isMarried, child)
