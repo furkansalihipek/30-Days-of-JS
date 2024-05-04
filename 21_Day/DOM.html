@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Belge Nesne Modeli: JavaScript'in 30 Günü</title>
+</head>
+
+<body>
+    <h1>Vücut Kitle İndeksi Hesaplama</h1>
+
+    <input type="text" id="kilo" placeholder="Kilogram cinsinden ağırlık" />
+    <input type="text" id="boy" placeholder="Metre cinsinden boy" />
+    <button>VKI Hesapla</button>
+
+    <script>
+        const kilo = document.querySelector("#kilo");
+        const boy = document.querySelector("#boy");
+        const button = document.querySelector("button");
+
+        let vki;
+        button.addEventListener("click", () => {
+            vki = kilo.value / boy.value ** 2;
+            alert(`Vücut Kitle İndeksiniz: ${vki.toFixed(2)}`);
+            console.log(vki);
+        });
+    </script>
+
+    <h1>input veya change etkinliği kullanarak Veri Bağlama</h1>
+
+    <input type="text" placeholder="Bir şeyler yazın" />
+    <p></p>
+
+    <script>
+        const input = document.querySelector("input");
+        const p = document.querySelector("p");
+
+        input.addEventListener("input", (e) => {
+            p.textContent = e.target.value;
+        });
+    </script>
+
+    <h1>blur etkinliğini kullanarak Geri Bildirim Verme</h1>
+
+    <input type="text" id="kilo" placeholder="Bir şeyler yazın" />
+    <p></p>
+
+    <script>
+        const input1 = document.querySelector('input')
+        const p1 = document.querySelector('p')
+
+        input.addEventListener('blur', (e) => {
+            p1.textContent = 'Bu alan gereklidir'
+            p1.style.color = 'red'
+
+        })
+    </script>
+
+    <h1>Key etkinlikleri: Herhangi bir tuşa basın</h1>
+
+    <script>
+        document.body.addEventListener("keypress", (e) => {
+            alert(e.keyCode);
+        });
+    </script>
+</body>
+
+</html>
