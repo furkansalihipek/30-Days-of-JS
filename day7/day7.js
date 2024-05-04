@@ -141,4 +141,4 @@ const greetings1 = (name = "Furkan") => {
 }
 
 console.log(greetings1())
-console.log(greetings1("Ali"))
+console.log(greetings1("Ali"));
