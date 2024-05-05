@@ -103,7 +103,6 @@ console.log(squaredNum)
 // Kendi kendini çağıran işlevlerin yararı, herhangi bir global bildirmeden kodu bir kez yürütmemize olanak vermeleridir
 
 // Arrow Function
-// Klasik fonksiyonla arrow function arasında sözdiziminde ufak bir farklılık vardır. function anahtar kelimesi yerine => işareti kullanılır
 
 const carpim = n => {
     return n * n 
