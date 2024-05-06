@@ -18,7 +18,7 @@ const person = {
     getFullName: function () {
         return `${this.firstName} ${this.lastName}`
     },
-    phoneNumber: '0553 879 32 31'
+    phoneNumber: '0553 879 00 00'
 }
 console.log(person)
 
