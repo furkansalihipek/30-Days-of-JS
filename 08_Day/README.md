@@ -106,3 +106,6 @@ _hasOwnProperty_: Bir nesnede belirli bir anahtar veya özelliğin bulunup bulun
 console.log(copyPerson.hasOwnProperty('name'))
 console.log(copyPerson.hasOwnProperty('score'))
 ```
+
+### Kaynak
+30-Days-Of-JavaScript derslerinin tamamı için [Asabeneh'in GitHub reposuna](https://github.com/Asabeneh/30-Days-Of-JavaScript) göz atabilirsiniz.
